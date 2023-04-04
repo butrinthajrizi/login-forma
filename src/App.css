@@ -1,0 +1,106 @@
+.App{
+  height: 100vh;
+  background-color: #feb60c;
+  display: grid;
+  place-items: center;
+}
+
+.form{
+  padding: 40px 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 20px;
+  border-radius: 17px;
+}
+
+.form-h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-h1 div{
+  background-color: #ffd452;
+  padding: 4px 2.8px;
+  transform: matrix(-1, 0, 0, 4, 0, 0);
+}
+
+.form-h1 h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.form-h2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.form-h2 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+.form-h2 p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: lightgrey;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
+.form-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-input{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(103, 102, 102);
+  display: grid;
+  gap: 5px;
+  font-size: 14px;
+}
+.form-input input{
+  padding: 10px;
+  border: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.form-input input::placeholder{
+  color: lightgrey;
+}
+
+.form-button{
+  background-color: #fdb000;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.form-button:hover{
+  background-color: white;
+  color: #fdb000;
+  outline: 1px solid #fdb000;
+}
+
+.form-forgot__password{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: grey;
+  text-align: center;
+}
+.form-forgot__password span{
+  color: #c6bb7b;
+}
+.form-forgot__password span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
